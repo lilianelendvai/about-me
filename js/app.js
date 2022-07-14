@@ -100,7 +100,7 @@ while (guessCount && !correctGuess){
   }
 }
 if (!correctGuess){
-  alert('R2D2, Grogu, Yoda, or Baby Yoda would have worked.');
+  alert(`These names would have worked... ${favoriteCharacterNames}`);
 }
 
 alert(`Your total number of correct answers is ${numberOfCorrectAnswers}`);
