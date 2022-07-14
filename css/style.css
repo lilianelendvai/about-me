@@ -1,3 +1,15 @@
 h1 {
   font-size: 3vw;
 }
+
+ol{
+  list-style: decimal;
+  margin: 20px;
+  padding-left: 20px;
+}
+
+ul{
+  list-style-type: square;
+  margin: 20px;
+  padding-left: 20px;
+}

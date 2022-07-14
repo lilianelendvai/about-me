@@ -22,3 +22,12 @@ It took me a couple hours, as I watched back part of the lecture video and follo
 ### Links and Resources
 
 ### Reflections
+
+1. **How did this go, overall?**
+I enjoyed this lab. It was difficult to get some of the loops correct at first, but it was satisfying once they were working the way I intended.
+
+2. **What observations or questions do you have about what you’ve learned so far?**
+I'm curious to see how incorporating functions in future steps will make this process more efficient.
+
+3. **How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?**
+It took me a few hours to complete the assignment, and that's about how long I was anticipating.
