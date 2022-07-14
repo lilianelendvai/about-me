@@ -47,9 +47,9 @@ if(questionFour === 'y' || questionFour === 'yes'){
 let questionFive = prompt('Yes or No... Do I like to camp?').toLowerCase();
 
 if(questionFive === 'y' || questionFive === 'yes'){
-  alert('Thanks for viewing me as that type of person... but I like indoor plumbing too much.');
+  alert(`Thanks for viewing me as that type of person ${siteVisitorName}... but I like indoor plumbing too much.`);
 } else if(questionFive === 'n' || questionFive === 'no'){
-  alert('It sounds nice in theory... but I like my hobbit hole too much to leave the Shire.');
+  alert(`It sounds nice in theory ${siteVisitorName}... but I like my hobbit hole too much to leave the Shire.`);
 } else{
   alert('Answer yes or no');
 }
