@@ -1,23 +1,24 @@
 'use strict';
 
 let numberOfCorrectAnswers = 0;
-let siteVisitorName = prompt('What is your name?');
 
+let siteVisitorName = prompt('What is your name?');
 alert(`Welcome, and thanks for visiting ${siteVisitorName}! Please guess these facts about me.`);
+
+
 
 function questionOnee(){
   let questionOne = prompt('Yes or No... Am I from Washington State?').toLowerCase();
 
   if(questionOne === 'y' || questionOne === 'yes'){
     alert('I wish I was!');
-    numberOfCorrectAnswers++;
   } else if(questionOne === 'n' || questionOne === 'no'){
     alert('I am one of those former Californians who traded palm trees for pine trees.');
+    numberOfCorrectAnswers++;
   } else{
     alert('Answer yes or no');
   }
 }
-questionOnee();
 
 function questionTwoo(){
 
@@ -32,7 +33,6 @@ function questionTwoo(){
     alert('Answer yes or no');
   }
 }
-questionTwoo();
 
 function questionThreee(){
 
@@ -40,14 +40,13 @@ function questionThreee(){
 
   if(questionThree === 'y' || questionThree === 'yes'){
     alert('I believe in a lot of things, but I am not team bigfoot yet.');
-    numberOfCorrectAnswers++;
   } else if(questionThree === 'n' || questionThree === 'no'){
     alert('Maybe one day... I can imagine sparkly vampires and moody werewolves roaming the forest, but bigfoot feels like a stretch.');
+    numberOfCorrectAnswers++;
   } else{
     alert('Answer yes or no');
   }
 }
-questionThreee();
 
 function questionFourr(){
 
@@ -62,21 +61,19 @@ function questionFourr(){
     alert('Answer yes or no');
   }
 }
-questionFourr();
 
 function questionFivee(){
   let questionFive = prompt('Yes or No... Do I like to camp?').toLowerCase();
 
   if(questionFive === 'y' || questionFive === 'yes'){
     alert(`Thanks for viewing me as that type of person ${siteVisitorName}... but I like indoor plumbing too much.`);
-    numberOfCorrectAnswers++;
   } else if(questionFive === 'n' || questionFive === 'no'){
     alert(`It sounds nice in theory ${siteVisitorName}... but I like my hobbit hole too much to leave the Shire.`);
+    numberOfCorrectAnswers++;
   } else{
     alert('Answer yes or no');
   }
 }
-questionFivee();
 
 function questionSixx(){
 
@@ -106,7 +103,6 @@ function questionSixx(){
     alert(`My lucky number is ${luckyNumber}`);
   }
 }
-questionSixx();
 
 function questionSevenn(){
 
@@ -130,6 +126,13 @@ function questionSevenn(){
     alert(`These names would have worked... ${favoriteCharacterNames}`);
   }
 }
-questionSevenn();
 
+questionOnee();
+questionTwoo();
+questionThreee();
+questionFourr();
+questionFivee();
+questionSixx();
+questionSevenn();
 alert(`Your total number of correct answers is ${numberOfCorrectAnswers}`);
+
